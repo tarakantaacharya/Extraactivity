@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tarakanta Acharya | Portfolio</title>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+  }
+
+  header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.95;
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .section-title p {
+    color: #555;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+  }
+
+  .card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 24px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #3b5bdb;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .card-content h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .card-content p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .card-content a {
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 600;
+  }
+
+  footer {
+    background: #111;
+    color: #bbb;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 80px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tarakanta Acharya</h1>
+  <p>
+    Final Year B.Tech Student in Gayatri Vidya Parishad College of Engineering 
+    <br> Passionate about exploring the intersection of technology, AI, and society through writing and research.
+  </p>
+</header>
+
+<main>
+
+  <div class="section-title">
+    <h2>Featured Work</h2>
+    <p>A selection of my writing and research across technology and AI</p>
+  </div>
+
+  <div class="cards">
+
+    <!-- BLOG -->
+    <div class="card">
+      <img src="https://cdn.mos.cms.futurecdn.net/DVffQnnibMWmNpx2Wfb5Se-1920-80.jpg" alt="AI Blog">
+      <div class="card-content">
+        <span class="tag">Blog</span>
+        <h3>How Artificial Intelligence Is Changing Everyday Life</h3>
+        <p>
+          A reader-friendly exploration of how AI impacts daily technology,
+          healthcare, education, and the modern workplace.
+        </p>
+        <a href="blog/index1.html">Read Blog →</a>
+      </div>
+    </div>
+
+    <!-- ARTICLE -->
+    <div class="card">
+      <img src="https://lpsonline.sas.upenn.edu/sites/default/files/2024-01/plpso-feature-mountains-global-climate.jpg" alt="Environment and Weather">
+      <div class="card-content">
+        <span class="tag">Article</span>
+        <h3>How Environment Affects Weather</h3>
+        <p>
+          An educational article explaining how forests, oceans,
+          urbanization, and human activity influence weather systems.
+        </p>
+        <a href="article/index2.html">Read Article →</a>
+      </div>
+    </div>
+
+    <!-- RESEARCH -->
+    <div class="card">
+      <img src="https://dkk4qeqny48s0.cloudfront.net/wp-content/uploads/2022/01/Fedrated-machine-learning_02.jpg" alt="Federated Healthcare Research">
+      <div class="card-content">
+        <span class="tag">Research</span>
+        <h3>Federated Healthcare Intelligence</h3>
+        <p>
+          A research-driven article on privacy-preserving federated learning
+          for healthcare intelligence, governance, and trust.
+        </p>
+        <a href="research/index3.html">Read Research →</a>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2025 Tarakanta Acharya • Built with clarity, research, and purpose</p>
+</footer>
+
+</body>
+</html>
